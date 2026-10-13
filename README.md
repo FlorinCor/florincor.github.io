@@ -2,7 +2,7 @@
 
 Live website: https://florincor.github.io/
 
-A buildless, responsive portfolio for Heart Match, ColorPour, Perfect Fit, ColourFun,
+A buildless, responsive portfolio for Heart Match, ColorPour, CircuitWorkshop, Perfect Fit, ColourFun,
 Flow, Trick or Treat Adventure, The GIF Break, SlingShot, Slingshot Multiplayer, and Pizzeria.
 
 ## Editing and publishing
