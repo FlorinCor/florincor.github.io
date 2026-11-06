@@ -38,20 +38,22 @@
     <section>
       <h2>Game progress on your device</h2>
       <p>Gravity Courier has no game account or game backend. It stores your completed missions, stars, best results, selected rocket, tutorial progress, settings and an in-progress mission in the app's private storage. A local recovery copy helps protect progress if a save is damaged. These records are used to run the game, restore a flight and remember your preferences; they are not sent to a developer game server. The app opts out of Android app backup.</p>
-      <p>Gameplay can be used offline. Google advertising and privacy messages use an internet connection. The game does not ask for your name, email address, age, contacts, camera, microphone or precise location. There is no separate developer-added gameplay analytics or crash-reporting service; Google's advertising services have their own data practices described below.</p>
+      <p>Gameplay can be used offline. Google advertising and privacy messages use an internet connection. The game does not ask for your name, email address, contacts, camera, microphone or precise location. There is no separate developer-added gameplay analytics or crash-reporting service; Google's advertising services have their own data practices described below.</p>
     </section>
     <section>
       <h2>Google advertising and privacy choices</h2>
-      <p>The game uses Google AdMob through the Google Mobile Ads SDK to request an app-opening advertisement when a new app session starts. Google's User Messaging Platform (UMP) checks privacy requirements and can display consent messages. The app contacts Google to update consent information when it starts, and requests ads only when UMP permits it. Availability and applicable choices depend on your region, device and the configured messages.</p>
+      <p>The game uses Google AdMob through the Google Mobile Ads SDK to request a banner on the home screen. It does not show ads during a mission. Google's User Messaging Platform (UMP) checks privacy requirements and can display consent messages. The game requests ads only when UMP permits it. Availability and applicable choices depend on your region, device and the configured messages.</p>
+      <p>The game asks for a date of birth to select appropriate ad settings. The date itself is not saved or sent off the device. The app stores only an age category on the device. Players can skip the question and play without ad requests; the app also does not request ads for players who enter an age under 13. For ages 13–17, the app sends Google a child-treatment signal for ad requests and configures UMP for users under the age of consent. This signal communicates the relevant age category, not the date of birth. All ad requests use a general-audience content rating. The age category can be changed in Settings or removed by clearing app storage.</p>
       <p>When Google's advertising services are used, Google may collect and share:</p>
       <ul>
         <li>IP address, which may indicate an approximate location;</li>
         <li>app and ad interactions, including launches, taps and video views;</li>
-        <li>app and SDK diagnostic or performance information; and</li>
-        <li>device and account identifiers, including the Android advertising ID, app-set ID and, where applicable, identifiers associated with signed-in accounts.</li>
+        <li>app and SDK diagnostic or performance information;</li>
+        <li>device and account identifiers, such as an app-set ID and, where applicable, identifiers associated with signed-in accounts; and</li>
+        <li>the child-treatment setting described above, when applicable.</li>
       </ul>
       <p>Google describes these data as used for advertising, analytics and fraud prevention. Google and its advertising partners process information under their own policies and the applicable privacy choices; the developer may receive aggregate advertising reports. The Mobile Ads SDK uses TLS to encrypt data in transit according to Google. Limited or non-personalized ads can still involve data processing.</p>
-      <p>When Google requires a privacy-options entry point, it appears under <strong>Settings → Privacy options</strong> in the game. You can also use Android's advertising privacy settings to reset or delete the advertising ID where supported; labels vary by device. Withdrawing a choice affects future processing that depends on it and does not erase information already processed.</p>
+      <p>The app does not request permission to access the Android advertising ID or Android Privacy Sandbox ad signals. When Google requires a privacy-options entry point, it appears under <strong>Settings → Privacy options</strong> in the game. Withdrawing a choice affects future processing that depends on it and does not erase information already processed.</p>
       <p>Read <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps using its services</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google's Mobile Ads SDK data disclosure</a>.</p>
     </section>
     <section>
